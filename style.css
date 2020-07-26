@@ -17,12 +17,44 @@ header {
     color: #5F2201;
     font-weight: bold;
   }
-body{
-  
-}
+
 .Skill {
   display: inline-block;
   padding: 10px;
   color: #5F2201;
   font-weight: bold;
+  font-size: 36px;
+}
+.About{
+  display: inline-block;
+  padding: 10px;
+  color: #5F2201;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+.contact{
+  display: inline-block;
+  padding: 10px;
+  color: #5F2201;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
+div.para {
+  display: flex;
+
+}
+
+div.para-s{
+  display: flex;
+}
+
+div.para-th{
+  background-color: wheat;
+}
+
+div.pt-honbun{
+  display: flex;
 }
