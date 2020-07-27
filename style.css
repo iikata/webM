@@ -16,17 +16,16 @@ header {
     padding: 10px;
     color: #5F2201;
     font-weight: bold;
+    font-size: 18px;
   }
 
 .Skill {
-  display: inline-block;
-  padding: 10px;
   color: #5F2201;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 36px;
+  text-align: center;
 }
 .About{
-  display: inline-block;
   padding: 10px;
   color: #5F2201;
   font-weight: bold;
@@ -66,4 +65,47 @@ div.pf-honbun{
 footer{
   background-color: #B9B9B9;
   color: white;
+}
+
+.text{
+  font-size: 16px;
+}
+
+.bigcat{
+  height:738px;
+  width: 1440px;
+}
+
+.cat2{
+  height: 300px;
+  width: 400px;
+  margin-right: 90px;
+  margin-left: 230px;
+}
+
+.para-right{
+  margin-left: 90px;
+}
+
+.logo{
+  margin-left: 230px;
+  margin-top: 11px;
+}
+
+.para-s-left{
+  margin-left: 230px;
+  margin-right: 90px;
+}
+
+.para-s-right{
+  margin-left: 90px;
+}
+
+/* .cat4{
+  margin-left: 230px;
+  margin-right: auto;
+} */
+
+.ph-left{
+  margin-left: 230px;
 }
