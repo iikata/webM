@@ -23,7 +23,7 @@ header {
   padding: 10px;
   color: #5F2201;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 18px;
 }
 .About{
   display: inline-block;
@@ -57,4 +57,13 @@ div.para-th{
 
 div.pt-honbun{
   display: flex;
+}
+
+div.pf-honbun{
+  display: flex;
+}
+
+footer{
+  background-color: #B9B9B9;
+  color: white;
 }
