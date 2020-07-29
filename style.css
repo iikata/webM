@@ -12,11 +12,18 @@ header {
   
   .menu-item {
     list-style: none;
-    display: inline-block;
-    padding: 10px;
+    /* display: inline-flex; */
+    padding-right: 40px;
     color: #5F2201;
     font-weight: bold;
     font-size: 18px;
+    
+  }
+
+
+  ul.menu-group{
+    display: flex;
+    padding-left: 375px;
   }
 
 .Skill {
@@ -24,6 +31,7 @@ header {
   font-weight: bold;
   font-size: 36px;
   text-align: center;
+  margin: 100px;
 }
 .About{
   padding: 10px;
@@ -52,6 +60,7 @@ div.para-s{
 
 div.para-th{
   background-color: wheat;
+  width: 1440px;
 }
 
 div.pt-honbun{
@@ -60,6 +69,8 @@ div.pt-honbun{
 
 div.pf-honbun{
   display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 footer{
@@ -69,6 +80,12 @@ footer{
 
 .text{
   font-size: 16px;
+}
+
+.text-about{
+  font-size: 16px;
+  text-align: center;
+  width: 314px;
 }
 
 .bigcat{
@@ -85,6 +102,8 @@ footer{
 
 .para-right{
   margin-left: 90px;
+  width: 400px;
+  height: 166px;
 }
 
 .logo{
@@ -95,6 +114,8 @@ footer{
 .para-s-left{
   margin-left: 230px;
   margin-right: 90px;
+  width: 400px;
+  height: 166px;
 }
 
 .para-s-right{
@@ -106,6 +127,42 @@ footer{
   margin-right: auto;
 } */
 
-.ph-left{
+/* .ph-left{
   margin-left: 230px;
+} */
+
+body {
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+.more{
+  border-radius: 25px;
+  background-color: white;
+  width: 120px;
+  height: 50px;
+  border-color: #5F2201;
+  border-width: 5px;
+  text-align: center;
+  display: block
+  
+  ;
+}
+.radius_test {
+  text-decoration:  none;             /* デフォルトCSS打ち消し */
+  color: #5F2201;                        /* 文字色指定 */
+  background-color: white;          /* 背景色指定 */
+  width: 120px;                       /* 幅指定 */
+  display: block;                     /* ブロック要素にする */
+  text-align:  center;                /* 中央揃え */
+  padding: 15px;                      /* 余白指定 */
+  border-radius:  25px;                /* 角丸指定 */
+  font-size: 16px;                    /* 文字サイズ指定 */
+  font-weight: bold;
+  border-color: tomato;
+  margin: 0 auto;
 }
