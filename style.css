@@ -41,7 +41,6 @@ header {
   text-align: center;
 }
 .contact{
-  display: inline-block;
   padding: 10px;
   color: #5F2201;
   font-weight: bold;
@@ -56,6 +55,7 @@ div.para {
 
 div.para-s{
   display: flex;
+  margin-top: 85px;
 }
 
 div.para-th{
@@ -164,5 +164,15 @@ body {
   font-size: 16px;                    /* 文字サイズ指定 */
   font-weight: bold;
   border-color: tomato;
+  margin: 0 auto;
+}
+
+footer{
+  width: 1440px;
+  height: 60px;
+  text-align: center
+}
+
+.fotter-text{
   margin: 0 auto;
 }
