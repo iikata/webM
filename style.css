@@ -34,7 +34,7 @@ header {
   margin: 100px;
 }
 .About{
-  padding: 10px;
+  padding-top: 100px;
   color: #5F2201;
   font-weight: bold;
   font-size: 36px;
@@ -171,8 +171,9 @@ footer{
   width: 1440px;
   height: 60px;
   text-align: center
+  
 }
 
 .fotter-text{
-  margin: 0 auto;
+  padding-top: 21px;
 }
