@@ -31,14 +31,16 @@ header {
   font-weight: bold;
   font-size: 36px;
   text-align: center;
-  margin: 100px;
+  margin: 95px;
 }
 .About{
-  padding-top: 100px;
+  padding-top: 93px;
   color: #5F2201;
   font-weight: bold;
   font-size: 36px;
   text-align: center;
+  margin-top: 100px;
+
 }
 .contact{
   padding: 10px;
@@ -50,21 +52,29 @@ header {
 
 div.para {
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 
 }
 
 div.para-s{
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   margin-top: 85px;
 }
 
 div.para-th{
   background-color: wheat;
-  width: 1440px;
+  /* width: 1440px; */
+  padding-bottom: 100px;
+
 }
 
 div.pt-honbun{
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 div.pf-honbun{
@@ -90,18 +100,18 @@ footer{
 
 .bigcat{
   height:738px;
-  width: 1440px;
+  max-width: 1440px;
 }
 
 .cat2{
   height: 300px;
   width: 400px;
-  margin-right: 90px;
-  margin-left: 230px;
+  /* margin-right: 90px;
+  margin-left: 230px; */
 }
 
 .para-right{
-  margin-left: 90px;
+  /* margin-left: 90px; */
   width: 400px;
   height: 166px;
 }
@@ -112,8 +122,8 @@ footer{
 }
 
 .para-s-left{
-  margin-left: 230px;
-  margin-right: 90px;
+  /* margin-left: 230px;
+  margin-right: 90px; */
   width: 400px;
   height: 166px;
 }
@@ -128,7 +138,7 @@ footer{
 } */
 
 .ph-left{
-  margin-left: 230px;
+  /* margin-left: 230px; */
   text-align: center;
 }
 
@@ -153,9 +163,9 @@ body {
   border-color: #5F2201;
   border-width: 5px;
   text-align: center;
-  display: block
+  display: block;
   
-  ;
+
 }
 .radius_test {
   text-decoration:  none;             /* デフォルトCSS打ち消し */
@@ -168,8 +178,11 @@ body {
   border-radius:  25px;                /* 角丸指定 */
   font-size: 16px;                    /* 文字サイズ指定 */
   font-weight: bold;
-  border-color: tomato;
+  border-style: solid;
+  border-color: #5F2201;
   margin: 0 auto;
+  margin-top: 49px;
+  margin-bottom: 100px;
 }
 
 footer{
@@ -181,6 +194,9 @@ footer{
 
 .fotter-text{
   padding-top: 21px;
+  
+  margin-top: 100px;
+
 }
 
 .cat4{
@@ -188,9 +204,19 @@ footer{
 }
 
 .ph-right{
-  margin-left: 190px;
+  /* margin-left: 190px; */
 }
 /* 
 .pf-left{
   margin-right: 200px;
 } */
+
+.pf-right{
+  width: 300px;
+  height: 90px;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.para-fo{
+}

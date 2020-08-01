@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <title>マンチカン</title>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </head>
 
 <body>
     <header>
-        <img src="./image/logo.png" class="logo">
+        <img src="./image/logo.png" class="logo" onclick="test()">
         <nav class="nav">
             <ul class="menu-group">
                 <li class="menu-item"><a href="#Skill"> Skill</a></li>
-                <li class="menu-item">About</li>
-                <li class="menu-item">Contact</li>
+                <li class="menu-item"><a href="#About">About</a></li>
+                <li class="menu-item"><a href="#Contact"> Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -23,7 +24,7 @@
         <img src="./image/cat-1.png" class="bigcat">
     </div>
     <div class="Skill-midasi">
-        <p class="Skill"><a href="#Skill">Skill</a></p>
+        <p class="Skill" id="Skill">Skill</p>
     </div>
     <div class="para">
         <div class="para-left">
@@ -50,7 +51,7 @@
         </div>
     </div>
     <div class="para-th">
-        <p class="About">About</p>
+        <p class="About" id="About">About</p>
         <div class="pt-honbun">
             <div class="ph-left">
                 <img src="./image/cat-4.png" alt="" srcset="" class="cat4">　
@@ -72,7 +73,7 @@
         </a>
     </div>
     <div class="para-fo">
-        <p class="contact">Contact</p>
+        <p class="contact" id="Contact">Contact</p>
         <div class="pf-honbun">
             <div class="pf-left">
                 <img src="./image/cat-10.png" alt="">
