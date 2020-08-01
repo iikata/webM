@@ -70,7 +70,7 @@ div.pt-honbun{
 div.pf-honbun{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 footer{
@@ -127,9 +127,14 @@ footer{
   margin-right: auto;
 } */
 
-/* .ph-left{
+.ph-left{
   margin-left: 230px;
-} */
+  text-align: center;
+}
+
+.ph-right{
+  text-align: center;
+}
 
 body {
   font-family: "Helvetica Neue",
@@ -177,3 +182,15 @@ footer{
 .fotter-text{
   padding-top: 21px;
 }
+
+.cat4{
+  margin: 0 auto;
+}
+
+.ph-right{
+  margin-left: 190px;
+}
+/* 
+.pf-left{
+  margin-right: 200px;
+} */
