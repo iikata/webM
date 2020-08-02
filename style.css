@@ -1,3 +1,41 @@
+/* 共通パーツ */
+.btn {
+  text-decoration:  none;             /* デフォルトCSS打ち消し */
+  color: #5F2201;                        /* 文字色指定 */
+  background-color: white;          /* 背景色指定 */
+  width: 120px;                       /* 幅指定 */
+  display: block;                     /* ブロック要素にする */
+  text-align:  center;                /* 中央揃え */
+  padding: 15px;                      /* 余白指定 */
+  border-radius:  25px;                /* 角丸指定 */
+  font-size: 16px;                    /* 文字サイズ指定 */
+  font-weight: bold;
+  border-style: solid;
+  border-color: #5F2201;
+  margin: 0 auto;
+  margin-top: 49px;
+  /* margin-bottom: 100px; */
+}
+
+.text{
+  font-size: 16px;
+}
+
+
+body {
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+/* ロゴ */
+.logo{
+  margin-left: 230px;
+  margin-top: 11px;
+}
 
 /* ヘッダー */
 header {
@@ -80,10 +118,6 @@ header {
   height: 166px;
 }
 
-.Skill_block-2_right{
-  margin-left: 90px;
-}
-
 /* About */
 .About{
   background-color: wheat;
@@ -117,7 +151,7 @@ header {
   margin: 0 auto;
 }
 
-.text-about{
+.About_block_text{
   font-size: 16px;
   text-align: center;
   width: 314px;
@@ -130,9 +164,7 @@ header {
 
 
 /* Contact */
-
-
-.contact{
+.Contact_title{
   padding: 10px;
   color: #5F2201;
   font-weight: bold;
@@ -141,92 +173,26 @@ header {
 }
 
 
-
-
-
-
-
-
-
-div.pf-honbun{
+.Contact_title_block{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
+.Contact_title_block_right{
+  width: 300px;
+  height: 90px;
+  text-align: center;
+  margin-top: 75px;
+}
+
+
+/* フッター */
 footer{
   background-color: #B9B9B9;
   color: white;
 }
 
-.text{
-  font-size: 16px;
-}
-
-
-
-
-
-
-
-
-
-.logo{
-  margin-left: 230px;
-  margin-top: 11px;
-}
-
-
-
-
-
-/* .cat4{
-  margin-left: 230px;
-  margin-right: auto;
-} */
-
-
-
-
-
-body {
-  font-family: "Helvetica Neue",
-    Arial,
-    "Hiragino Kaku Gothic ProN",
-    "Hiragino Sans",
-    Meiryo,
-    sans-serif;
-}
-
-.more{
-  border-radius: 25px;
-  background-color: white;
-  width: 120px;
-  height: 50px;
-  border-color: #5F2201;
-  border-width: 5px;
-  text-align: center;
-  display: block;
-  
-
-}
-.radius_test {
-  text-decoration:  none;             /* デフォルトCSS打ち消し */
-  color: #5F2201;                        /* 文字色指定 */
-  background-color: white;          /* 背景色指定 */
-  width: 120px;                       /* 幅指定 */
-  display: block;                     /* ブロック要素にする */
-  text-align:  center;                /* 中央揃え */
-  padding: 15px;                      /* 余白指定 */
-  border-radius:  25px;                /* 角丸指定 */
-  font-size: 16px;                    /* 文字サイズ指定 */
-  font-weight: bold;
-  border-style: solid;
-  border-color: #5F2201;
-  margin: 0 auto;
-  margin-top: 49px;
-  /* margin-bottom: 100px; */
-}
 
 footer{
   width: 1440px;
@@ -235,7 +201,7 @@ footer{
   
 }
 
-.fotter-text{
+.fotter_text{
   padding-top: 21px;
   
   margin-top: 100px;
@@ -244,20 +210,5 @@ footer{
 
 
 
-.ph-right{
-  /* margin-left: 190px; */
-}
-/* 
-.pf-left{
-  margin-right: 200px;
-} */
 
-.pf-right{
-  width: 300px;
-  height: 90px;
-  text-align: center;
-  margin-top: 75px;
-}
 
-.para-fo{
-}
