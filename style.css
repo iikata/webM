@@ -21,7 +21,6 @@
   font-size: 16px;
 }
 
-
 body {
   font-family: "Helvetica Neue",
     Arial,
@@ -30,6 +29,13 @@ body {
     Meiryo,
     sans-serif;
 }
+
+/* タイトル */
+/* .main-image_cat{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+} */
 
 /* ロゴ */
 .logo{
