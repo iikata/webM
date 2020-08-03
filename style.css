@@ -90,6 +90,16 @@ header {
   margin: 95px;
 }
 
+@media screen and (max-width: 480px) {
+  .Skill_title {
+    color: #5F2201;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 95px;
+  }
+ }
+
 .Skill_block {
   display: flex;
   flex-direction: row;
@@ -197,21 +207,13 @@ header {
 footer{
   background-color: #B9B9B9;
   color: white;
-}
-
-
-footer{
-  width: 1440px;
   height: 60px;
   text-align: center
-  
 }
 
 .fotter_text{
   padding-top: 21px;
-  
   margin-top: 100px;
-
 }
 
 
