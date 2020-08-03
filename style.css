@@ -43,9 +43,17 @@ body {
   margin-top: 11px;
 }
 
-/* ヘッダー */
-
 /*　ハンバーガーボタン　*/
+.globalMenuSp_list{
+  visibility: hidden;
+}
+
+@media screen and (max-width: 900px) {
+
+.globalMenuSp_list{
+  visibility: visible;
+}
+
 .hamburger {
   display : block;
   position: fixed;
@@ -161,6 +169,9 @@ nav.globalMenuSp.active {
 
 }
 
+}
+
+/* ヘッダー */
 header {
     display: flex;
     width: 100%;
@@ -173,6 +184,12 @@ header {
     margin-right: auto;
   }
   
+  @media screen and (max-width: 900px) {
+    .nav{
+      display: none;
+    }
+  }
+
   .nav_menu-group{
     display: flex;
     padding-left: 375px;
