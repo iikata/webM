@@ -43,6 +43,16 @@ body {
   margin-top: 11px;
 }
 
+
+@media only screen and (max-width: 767px){
+  .logo{
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 125px;
+    height: 20px;
+  }
+}
+
 /*　ハンバーガーボタン　*/
 .globalMenuSp_list{
   visibility: hidden;
@@ -171,6 +181,7 @@ nav.globalMenuSp.active {
 
 }
 
+
 /* ヘッダー */
 header {
     display: flex;
@@ -210,10 +221,24 @@ header {
 
 
 /*メイン画像 */
+@media screen and (max-width: 900px) {
+  .main-image{
+    text-align: center;
+  }
+ }
+
 .main-image_cat{
   height:738px;
   max-width: 1440px;
 }
+
+@media screen and (max-width: 900px) {
+  .main-image_cat{
+    height:192px;
+    max-width: 375px;
+    margin: 0 auto;
+  }
+ }
 
 /*スキル*/
 .Skill_title {
@@ -241,6 +266,14 @@ header {
 
 }
 
+@media screen and (max-width: 900px) {
+  .Skill_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+
 .Skill_block_left_cat2{
   height: 300px;
   width: 400px;
@@ -248,27 +281,49 @@ header {
   margin-left: 230px; */
 }
 
+@media screen and (max-width: 900px) {
+  .Skill_block_left{
+    text-align: center;
+  }
+  .Skill_block_left_cat2{
+    height: 259px;
+    width: 345px;
+
+    /* margin-right: 90px;
+    margin-left: 230px; */
+  }
+}
+
 .Skill_block_right{
-  /* margin-left: 90px; */
   width: 400px;
   height: 166px;
 }
 
 @media screen and (max-width: 900px) {
-  .Skill_block {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  
+  .Skill_block_right{
+    width: 345px;
+    height: 156px;
+    text-align: center;
+  }
+  .text{
+    text-align: left;
   }
 }
-
 
 .Skill_block-2{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 85px;
+}
+
+@media screen and (max-width: 900px) {
+  .Skill_block-2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  
+  }
 }
 
 .Skill_block-2_left{
@@ -279,11 +334,19 @@ header {
 }
 
 @media screen and (max-width: 900px) {
-  .Skill_block-2 {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-evenly;
-  
+  .Skill_block-2_left{
+    width: 345px;
+    height: 156px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Skill_block-2_right {
+    text-align: center;
+  }
+  .Skill_block-2_right_cat3 {
+    height: 259px;
+    width: 345px;
   }
 }
 
@@ -331,6 +394,15 @@ header {
   font-size: 16px;
   text-align: center;
 }
+
+/* @media screen and (max-width: 900px) {
+  .About_block_text{
+    font-size: 16px;
+    text-align: center;
+    width: 345px;
+
+  }
+} */
 
 .About_block_right{
   text-align: center;
