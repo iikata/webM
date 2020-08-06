@@ -17,6 +17,26 @@
   /* margin-bottom: 100px; */
 }
 
+@media screen and (max-width: 900px) {
+  .btn {
+    text-decoration:  none;             /* デフォルトCSS打ち消し */
+    color: #5F2201;                        /* 文字色指定 */
+    background-color: white;          /* 背景色指定 */
+    width: 120px;                       /* 幅指定 */
+    display: block;                     /* ブロック要素にする */
+    text-align:  center;                /* 中央揃え */
+    padding: 15px;                      /* 余白指定 */
+    border-radius:  25px;                /* 角丸指定 */
+    font-size: 16px;                    /* 文字サイズ指定 */
+    font-weight: bold;
+    border-style: solid;
+    border-color: #5F2201;
+    margin: 0 auto;
+    margin-top: 28px;
+    /* margin-bottom: 100px; */
+  }
+}
+
 .text{
   font-size: 16px;
 }
@@ -44,7 +64,7 @@ body {
 }
 
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 900px){
   .logo{
     margin-left: 15px;
     margin-top: 20px;
@@ -229,7 +249,7 @@ header {
 
 .main-image_cat{
   height:738px;
-  max-width: 1440px;
+  width: 1440px;
 }
 
 @media screen and (max-width: 900px) {
@@ -255,7 +275,8 @@ header {
     font-weight: bold;
     font-size: 20px;
     text-align: center;
-    margin: 95px;
+    margin-top: 46px;
+    margin-bottom: 37px;
   }
  }
 
@@ -288,6 +309,7 @@ header {
   .Skill_block_left_cat2{
     height: 259px;
     width: 345px;
+    margin: 0 auto;
 
     /* margin-right: 90px;
     margin-left: 230px; */
@@ -304,9 +326,12 @@ header {
     width: 345px;
     height: 156px;
     text-align: center;
+    margin: 0 auto;
   }
   .text{
     text-align: left;
+    font-size: 15px;
+    line-height: 26px;
   }
 }
 
@@ -322,7 +347,6 @@ header {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-evenly;
-  
   }
 }
 
@@ -337,6 +361,8 @@ header {
   .Skill_block-2_left{
     width: 345px;
     height: 156px;
+    margin: 0 auto;
+    text-align: center;
   }
 }
 
@@ -358,6 +384,14 @@ header {
 
 }
 
+@media screen and (max-width: 900px) {
+  .About{
+    background-color: wheat;
+    padding-bottom: 50px;
+  
+  }
+}
+
 .About_title{
   padding-top: 93px;
   color: #5F2201;
@@ -366,6 +400,18 @@ header {
   text-align: center;
   margin-top: 100px;
 
+}
+@media screen and (max-width: 900px) {
+  .About_title{
+    color: #5F2201;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 46px;
+    margin-bottom: 37px;
+    padding-top: 46px;
+  
+  }
 }
 
 .About_block{
@@ -385,6 +431,12 @@ header {
   /* margin-left: 230px; */
   text-align: center;
 }
+@media screen and (max-width: 900px) {
+  .About_block_left{
+    text-align: center;
+    margin-top: 33px;
+  }
+}
 
 .About_block_left_cat4{
   margin: 0 auto;
@@ -395,14 +447,13 @@ header {
   text-align: center;
 }
 
-/* @media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .About_block_text{
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
-    width: 345px;
-
+    line-height: 26px;
   }
-} */
+}
 
 .About_block_right{
   text-align: center;
@@ -425,6 +476,7 @@ header {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 @media screen and (max-width: 900px) {
   .Contact_block{
     display: flex;
@@ -432,13 +484,42 @@ header {
     justify-content: space-evenly;
     text-align: center;
   }
+  .Contact_block_right{
+    width: 300px;
+    height: 90px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Contact_title{
+    padding: 10px;
+    color: #5F2201;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 27px;
+  }
 }
 
-.CContact_block_right{
-  width: 300px;
-  height: 90px;
-  text-align: center;
-  margin-top: 75px;
+@media screen and (min-width: 901px){
+  .Contact_block_right{
+    width: 300px;
+    height: 90px;
+    text-align: center;
+    margin-top: 75px;
+  }
+}
+
+.Contact_block_right_text{
+  font-size: 16px;
+}
+
+@media screen and (max-width: 900px) {
+  .Contact_block_right_text{
+    font-size: 15px;
+  }
 }
 
 
@@ -453,6 +534,14 @@ footer{
 .fotter_text{
   padding-top: 21px;
   margin-top: 100px;
+}
+
+@media screen and (max-width: 900px) {
+  
+.fotter_text{
+  padding-top: 21px;
+  margin-top: 50px;
+}
 }
 
 
