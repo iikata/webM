@@ -39,6 +39,7 @@
 
 .text{
   font-size: 16px;
+  line-height: 27px;
 }
 
 body {
@@ -475,6 +476,7 @@ header {
 
 .About_block_text{
   font-size: 16px;
+  line-height: 27px;
   text-align: center;
 }
 
