@@ -215,6 +215,10 @@ header {
     margin-right: auto;
   }
   
+  .nav{
+    text-align: right;
+    margin: 0 0 0 auto;
+  }
   @media screen and (max-width: 900px) {
     .nav{
       display: none;
@@ -223,7 +227,6 @@ header {
 
   .nav_menu-group{
     display: flex;
-    padding-left: 375px;
   }
 
   .nav_menu-group_menu-item {
@@ -251,6 +254,34 @@ header {
   height:738px;
   width: 1440px;
 }
+@media screen and (max-width: 1439px) {
+  .main-image_cat{
+    height:517px;
+    max-width: 1008px;
+    margin: 0 auto;
+  }
+    .logo{
+      margin-left: 15px;
+      margin-top: 20px;
+      width: 256px;
+      height: 41px;
+    }
+ }
+
+ @media screen and (max-width: 1007px) {
+  .main-image_cat{
+    height:369px;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .logo{
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 183px;
+    height: 29px;
+  }
+ }
+
 
 @media screen and (max-width: 900px) {
   .main-image_cat{
