@@ -4,6 +4,7 @@
   color: #5F2201;                        /* 文字色指定 */
   background-color: white;          /* 背景色指定 */
   width: 84px;                       /* 幅指定 */
+  height: 14px;
   display: block;                     /* ブロック要素にする */
   text-align:  center;                /* 中央揃え */
   padding: 15px;                      /* 余白指定 */
@@ -22,7 +23,8 @@
     text-decoration:  none;             /* デフォルトCSS打ち消し */
     color: #5F2201;                        /* 文字色指定 */
     background-color: white;          /* 背景色指定 */
-    width: 120px;                       /* 幅指定 */
+    width: 84px;                       /* 幅指定 */
+    height: 14px;
     display: block;                     /* ブロック要素にする */
     text-align:  center;                /* 中央揃え */
     padding: 15px;                      /* 余白指定 */
@@ -42,12 +44,7 @@
 }
 
 body {
-  font-family: "Helvetica Neue",
-    Arial,
-    "Hiragino Kaku Gothic ProN",
-    "Hiragino Sans",
-    Meiryo,
-    sans-serif;
+  font-family: "YuGothic";
 }
 
 /* ロゴ */
@@ -61,8 +58,8 @@ body {
   .logo{
     margin-left: 15px;
     margin-top: 20px;
-    width: 125px;
-    height: 20px;
+    width: 125.82px;
+    height: 19.98px;
   }
 }
 
