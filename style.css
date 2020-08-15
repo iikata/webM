@@ -1,6 +1,6 @@
 /* 共通パーツ */
 
-.btn {
+.btn_more {
     text-decoration: none;
     /* デフォルトCSS打ち消し */
     color: #5F2201;
@@ -24,8 +24,36 @@
     border-style: solid;
     border-color: #5F2201;
     margin: 0 auto;
-    margin-top: 49px;
-    /* margin-bottom: 100px; */
+    margin-top: 30px;
+    line-height: 14px;
+}
+
+.btn_map {
+    text-decoration: none;
+    /* デフォルトCSS打ち消し */
+    color: #5F2201;
+    /* 文字色指定 */
+    background-color: white;
+    /* 背景色指定 */
+    width: 64px;
+    /* 幅指定 */
+    height: 14px;
+    display: block;
+    /* ブロック要素にする */
+    text-align: center;
+    /* 中央揃え */
+    padding: 15px;
+    /* 余白指定 */
+    border-radius: 25px;
+    /* 角丸指定 */
+    font-size: 16px;
+    /* 文字サイズ指定 */
+    font-weight: bold;
+    border-style: solid;
+    border-color: #5F2201;
+    margin: 0 auto;
+    margin-top: 30px;
+    line-height: 14px;
 }
 
 @media screen and (max-width: 900px) {
@@ -385,7 +413,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 85px;
+    margin-top: 75px;
 }
 
 @media screen and (max-width: 900px) {
@@ -438,7 +466,7 @@ header {
 /* About */
 
 .About {
-    background-color: wheat;
+    background-color: #FFF3DD;
     /* width: 1440px; */
     padding-bottom: 100px;
 }
@@ -486,8 +514,13 @@ header {
 }
 
 .About_block_left {
-    /* margin-left: 230px; */
     text-align: center;
+}
+
+@media screen and (min-width: 901px) {
+    .About_block_left {
+        margin-left: 125px;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -519,6 +552,12 @@ header {
     text-align: center;
 }
 
+@media screen and (min-width: 901px) {
+    .About_block_right {
+        margin-right: 125px;
+    }
+}
+
 
 /* Contact */
 
@@ -528,12 +567,22 @@ header {
     font-weight: bold;
     font-size: 36px;
     text-align: center;
+    margin-top: 83px;
 }
 
 .Contact_block {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+@media screen and (min-width: 901px) {
+    .Contact_block_left {
+        margin-left: 100px;
+    }
+    .Contact_block_right {
+        margin-right: 100px;
+    }
 }
 
 @media screen and (max-width: 900px) {
