@@ -57,6 +57,17 @@
 }
 
 @media screen and (max-width: 900px) {
+    .btn_more {
+        font-size: 15px;
+    }
+    .btn_map {
+        height: 12px;
+        font-size: 15px;
+        margin-top: 29px;
+    }
+}
+
+@media screen and (max-width: 900px) {
     .btn {
         text-decoration: none;
         /* デフォルトCSS打ち消し */
@@ -92,7 +103,7 @@
 }
 
 body {
-    font-family: "YuGothic";
+    font-family: "YuGothic", "Yu Gothic Bold", "Yu Gothic Medium";
 }
 
 
@@ -137,22 +148,23 @@ body {
     .hamburger span {
         display: block;
         position: absolute;
-        width: 30px;
-        height: 2px;
-        left: 6px;
-        background: #555;
+        width: 20px;
+        height: 3px;
+        left: -10px;
+        background: #5F2201;
         -webkit-transition: 0.3s ease-in-out;
         -moz-transition: 0.3s ease-in-out;
         transition: 0.3s ease-in-out;
+        border-radius: 1.5px;
     }
     .hamburger span:nth-child(1) {
         top: 10px;
     }
     .hamburger span:nth-child(2) {
-        top: 20px;
+        top: 17px;
     }
     .hamburger span:nth-child(3) {
-        top: 30px;
+        top: 24px;
     }
     /* ナビ開いてる時のボタン */
     .hamburger.active {
@@ -241,6 +253,16 @@ header {
     align-items: center;
 }
 
+@media screen and (max-width: 900px) {
+    header {
+        display: flex;
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        align-items: center;
+    }
+}
+
 .title {
     margin-right: auto;
 }
@@ -310,16 +332,23 @@ header {
     .logo {
         margin-left: 15px;
         margin-top: 20px;
+        margin-bottom: 20px;
         width: 183px;
         height: 29px;
     }
 }
 
 @media screen and (max-width: 900px) {
-    .main-image_cat {
+    /* .main-image_cat {
         height: 192px;
         max-width: 375px;
         margin: 0 auto;
+    } */
+    .logo {
+        margin-left: 15px;
+        margin-top: 20px;
+        width: 125.82px;
+        height: 19.98px;
     }
 }
 
@@ -341,8 +370,8 @@ header {
         font-weight: bold;
         font-size: 20px;
         text-align: center;
-        margin-top: 46px;
-        margin-bottom: 37px;
+        margin-top: 36px;
+        margin-bottom: 33px;
     }
 }
 
@@ -374,6 +403,7 @@ header {
 @media screen and (max-width: 900px) {
     .Skill_block_left {
         text-align: center;
+        margin-bottom: 20px;
     }
     .Skill_block_left_cat2 {
         height: 259px;
@@ -421,6 +451,7 @@ header {
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-evenly;
+        margin-top: 41px;
     }
 }
 
@@ -443,6 +474,7 @@ header {
         height: 156px;
         margin: 0 auto;
         text-align: center;
+        margin-top: 21px;
     }
 }
 
@@ -473,7 +505,7 @@ header {
 
 @media screen and (max-width: 900px) {
     .About {
-        background-color: wheat;
+        background-color: #FFF3DD;
         padding-bottom: 50px;
     }
 }
@@ -493,9 +525,9 @@ header {
         font-weight: bold;
         font-size: 20px;
         text-align: center;
-        margin-top: 46px;
-        margin-bottom: 37px;
-        padding-top: 46px;
+        margin-top: 44px;
+        margin-bottom: 0px;
+        padding-top: 44px;
     }
 }
 
@@ -508,7 +540,7 @@ header {
 @media screen and (max-width: 900px) {
     .About_block {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: space-evenly;
     }
 }
@@ -527,6 +559,7 @@ header {
     .About_block_left {
         text-align: center;
         margin-top: 33px;
+        margin-bottom: 30px;
     }
 }
 
@@ -596,7 +629,7 @@ header {
         width: 300px;
         height: 90px;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -607,7 +640,7 @@ header {
         font-size: 20px;
         text-align: center;
         margin-top: 36px;
-        margin-bottom: 27px;
+        margin-bottom: 23px;
     }
 }
 
@@ -642,12 +675,16 @@ footer {
 
 .fotter_text {
     padding-top: 21px;
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 @media screen and (max-width: 900px) {
+    footer {
+        height: 30px;
+    }
     .fotter_text {
         padding-top: 21px;
         margin-top: 50px;
+        font-size: 12px;
     }
 }
