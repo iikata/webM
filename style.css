@@ -110,8 +110,8 @@ body {
 /* ロゴ */
 
 .logo {
-    margin-left: 140px;
-    margin-top: 11px;
+    margin-left: 130px;
+    margin-top: 0px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -361,7 +361,7 @@ header {
     font-size: 36px;
     text-align: center;
     margin-top: 85px;
-    margin-bottom: 90px;
+    margin-bottom: 85px;
 }
 
 @media screen and (max-width: 900px) {
@@ -396,7 +396,7 @@ header {
 
 @media screen and (min-width: 901px) {
     .Skill_block_left_cat2 {
-        margin-left: 65px;
+        margin-left: 54px;
     }
 }
 
@@ -421,7 +421,7 @@ header {
 
 @media screen and (min-width: 901px) {
     .Skill_block_right {
-        margin-right: 65px;
+        margin-right: 54px;
     }
 }
 
@@ -683,8 +683,9 @@ footer {
         height: 30px;
     }
     .fotter_text {
-        padding-top: 21px;
-        margin-top: 50px;
+        margin-top: 74px;
         font-size: 12px;
+        padding-top: 0px;
+        line-height: 30px;
     }
 }
