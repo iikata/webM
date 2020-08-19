@@ -52,8 +52,14 @@
     border-style: solid;
     border-color: #5F2201;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 20px;
     line-height: 14px;
+}
+
+@media screen and (min-width: 901px) {
+    .btn_map {
+        margin-right: 110px;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -464,7 +470,7 @@ header {
 
 @media screen and (min-width: 901px) {
     .Skill_block-2_left {
-        margin-left: 65px;
+        margin-left: 54px;
     }
 }
 
@@ -480,7 +486,7 @@ header {
 
 @media screen and (min-width: 901px) {
     .Skill_block-2_right {
-        margin-right: 65px;
+        margin-right: 54px;
     }
 }
 
@@ -511,12 +517,12 @@ header {
 }
 
 .About_title {
-    padding-top: 93px;
+    padding-top: 90px;
     color: #5F2201;
     font-weight: bold;
     font-size: 36px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 95px;
 }
 
 @media screen and (max-width: 900px) {
@@ -551,7 +557,7 @@ header {
 
 @media screen and (min-width: 901px) {
     .About_block_left {
-        margin-left: 125px;
+        margin-left: 145px;
     }
 }
 
@@ -587,21 +593,29 @@ header {
 
 @media screen and (min-width: 901px) {
     .About_block_right {
-        margin-right: 125px;
+        margin-right: 145px;
+    }
+    .About_block_left p {
+        margin-left: 10px;
+    }
+    .About_block_right p {
+        margin-right: 10px;
     }
 }
 
 
 /* Contact */
 
-.Contact_title {
+
+/* .Contact_title {
     padding: 10px;
     color: #5F2201;
     font-weight: bold;
     font-size: 36px;
     text-align: center;
     margin-top: 83px;
-}
+    margin-bottom: 26px;
+} */
 
 .Contact_block {
     display: flex;
@@ -611,10 +625,19 @@ header {
 
 @media screen and (min-width: 901px) {
     .Contact_block_left {
-        margin-left: 100px;
+        margin-left: 110px;
     }
     .Contact_block_right {
         margin-right: 100px;
+    }
+    .Contact_title {
+        padding: 10px;
+        color: #5F2201;
+        font-weight: bold;
+        font-size: 36px;
+        text-align: center;
+        margin-top: 83px;
+        margin-bottom: 26px;
     }
 }
 
@@ -651,6 +674,10 @@ header {
         text-align: center;
         margin-top: 75px;
     }
+    .Contact_block_right_text {
+        margin-right: 20px;
+        margin-top: 25px;
+    }
 }
 
 .Contact_block_right_text {
@@ -660,6 +687,8 @@ header {
 @media screen and (max-width: 900px) {
     .Contact_block_right_text {
         font-size: 15px;
+        margin-right: 20px;
+        margin-top: 25px;
     }
 }
 
@@ -675,7 +704,8 @@ footer {
 
 .fotter_text {
     padding-top: 21px;
-    margin-top: 90px;
+    margin-top: 92px;
+    font-size: 12px;
 }
 
 @media screen and (max-width: 900px) {
