@@ -69,7 +69,7 @@
     .btn_map {
         height: 12px;
         font-size: 15px;
-        margin-top: 29px;
+        margin-top: 24px;
     }
 }
 
@@ -109,7 +109,7 @@
 }
 
 body {
-    font-family: "YuGothic", "Yu Gothic Bold", "Yu Gothic Medium";
+    font-family: "游ゴシック", "YuGothic", "Yu Gothic Bold", "Yu Gothic Medium";
 }
 
 
@@ -688,7 +688,7 @@ header {
     .Contact_block_right_text {
         font-size: 15px;
         margin-right: 20px;
-        margin-top: 25px;
+        margin-top: 17px;
     }
 }
 
@@ -713,7 +713,7 @@ footer {
         height: 30px;
     }
     .fotter_text {
-        margin-top: 74px;
+        margin-top: 75px;
         font-size: 12px;
         padding-top: 0px;
         line-height: 30px;
