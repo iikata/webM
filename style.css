@@ -367,7 +367,7 @@ header {
     font-size: 36px;
     text-align: center;
     margin-top: 85px;
-    margin-bottom: 85px;
+    margin-bottom: 83px;
 }
 
 @media screen and (max-width: 900px) {
@@ -427,7 +427,7 @@ header {
 
 @media screen and (min-width: 901px) {
     .Skill_block_right {
-        margin-right: 54px;
+        margin-right: 53px;
     }
 }
 
@@ -512,7 +512,7 @@ header {
 @media screen and (max-width: 900px) {
     .About {
         background-color: #FFF3DD;
-        padding-bottom: 50px;
+        padding-bottom: 48px;
     }
 }
 
@@ -522,7 +522,7 @@ header {
     font-weight: bold;
     font-size: 36px;
     text-align: center;
-    margin-top: 95px;
+    margin-top: 97px;
 }
 
 @media screen and (max-width: 900px) {
@@ -557,7 +557,7 @@ header {
 
 @media screen and (min-width: 901px) {
     .About_block_left {
-        margin-left: 145px;
+        margin-left: 141px;
     }
 }
 
@@ -593,13 +593,15 @@ header {
 
 @media screen and (min-width: 901px) {
     .About_block_right {
-        margin-right: 145px;
+        margin-right: 141px;
     }
     .About_block_left p {
-        margin-left: 10px;
+        margin-left: 2px;
+        margin-top: 17px;
     }
     .About_block_right p {
-        margin-right: 10px;
+        margin-right: 5px;
+        margin-top: 17px;
     }
 }
 
@@ -676,7 +678,8 @@ header {
     }
     .Contact_block_right_text {
         margin-right: 20px;
-        margin-top: 25px;
+        margin-top: 22px;
+        margin-bottom: 25px;
     }
 }
 
@@ -704,7 +707,7 @@ footer {
 
 .fotter_text {
     padding-top: 21px;
-    margin-top: 92px;
+    margin-top: 91px;
     font-size: 12px;
 }
 
