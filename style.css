@@ -442,6 +442,7 @@ header {
         text-align: left;
         font-size: 15px;
         line-height: 26px;
+        /* letter-spacing: -0.4px; */
     }
 }
 
@@ -584,6 +585,10 @@ header {
         font-size: 15px;
         text-align: center;
         line-height: 26px;
+        /* letter-spacing: -0.2px; */
+    }
+    .About_block_right p {
+        margin-top: 17px;
     }
 }
 
@@ -690,8 +695,8 @@ header {
 @media screen and (max-width: 900px) {
     .Contact_block_right_text {
         font-size: 15px;
-        margin-right: 20px;
         margin-top: 17px;
+        /* letter-spacing: -0.1px; */
     }
 }
 
@@ -716,9 +721,11 @@ footer {
         height: 30px;
     }
     .fotter_text {
-        margin-top: 75px;
+        margin-top: 74px;
         font-size: 12px;
         padding-top: 0px;
-        line-height: 30px;
+        line-height: 31px;
+        /* letter-spacing: -0.1px; */
+        /* background-color: #B9B9B9; */
     }
 }
