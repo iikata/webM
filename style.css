@@ -138,7 +138,7 @@ body {
 
 @media screen and (max-width: 900px) {
     .globalMenuSp_list {
-        visibility: visible;
+        /* visibility: visible; */
     }
     .hamburger {
         display: block;
@@ -216,6 +216,7 @@ body {
         text-align: center;
         width: 100%;
         opacity: 0;
+        /* display: none; */
         transition: opacity .1s ease, visibility .1s ease;
     }
     nav.globalMenuSp ul {
