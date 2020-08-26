@@ -24,6 +24,10 @@ $(document).ready(function() {
 
 $(function() {
     $('a[href^="#"]').click(function() {
+
+        // $('.hamburger').toggleClass('active');
+        $('.globalMenuSp').removeClass('active');
+
         var speed = 500;
         var href = $(this).attr("href");
         var target = $(href == "#" || href == "" ? 'html' : href);

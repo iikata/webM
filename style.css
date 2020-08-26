@@ -216,7 +216,7 @@ body {
         text-align: center;
         width: 100%;
         opacity: 0;
-        transition: opacity .6s ease, visibility .6s ease;
+        transition: opacity .1s ease, visibility .1s ease;
     }
     nav.globalMenuSp ul {
         margin: 0 auto;
@@ -459,8 +459,10 @@ header {
         margin-bottom: 20px;
     }
     .Skill_block_left_cat2 {
-        height: 259px;
-        width: 345px;
+        width: 92%;
+        height: auto;
+        /* height: 259px;
+        width: 345px; */
         margin: 0 auto;
         /* margin-right: 90px;
     margin-left: 230px; */
@@ -480,8 +482,10 @@ header {
 
 @media screen and (max-width: 900px) {
     .Skill_block_right {
-        width: 345px;
-        height: 156px;
+        width: 92%;
+        height: auto;
+        /* width: 345px;
+        height: 156px; */
         text-align: center;
         margin: 0 auto;
     }
@@ -505,7 +509,7 @@ header {
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-evenly;
-        margin-top: 41px;
+        margin-top: 28px;
     }
 }
 
@@ -524,8 +528,10 @@ header {
 
 @media screen and (max-width: 900px) {
     .Skill_block-2_left {
-        width: 345px;
-        height: 156px;
+        width: 92%;
+        height: auto;
+        /* width: 345px;
+        height: 156px; */
         margin: 0 auto;
         text-align: center;
         margin-top: 21px;
@@ -543,8 +549,10 @@ header {
         text-align: center;
     }
     .Skill_block-2_right_cat3 {
-        height: 259px;
-        width: 345px;
+        height: auto;
+        width: 92%;
+        /* height: 259px;
+        width: 345px; */
     }
 }
 
@@ -579,7 +587,7 @@ header {
         font-weight: bold;
         font-size: 20px;
         text-align: center;
-        margin-top: 44px;
+        margin-top: 26px;
         margin-bottom: 0px;
         padding-top: 44px;
     }
