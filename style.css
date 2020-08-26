@@ -198,13 +198,13 @@ body {
         -webkit-transform: translateY(4px);
         -ms-transform: translateY(4px);
         -o-transform: translateY(4px);
-        transform: translateY(34px);
+        transform: translateX(3px) translateY(25px);
     }
     .hamburger.active span:nth-child(3) {
         -webkit-transform: translateY(-16px) rotate(90deg);
         -ms-transform: translateY(-16px) rotate(90deg);
         -o-transform: translateY(-16px) rotate(90deg);
-        transform: translateY(20px) rotate(90deg);
+        transform: translateX(3px) translateY(11px) rotate(90deg);
     }
     nav.globalMenuSp {
         position: fixed;
@@ -415,6 +415,42 @@ header {
     .Skill_block_left_cat2 {
         margin-left: 54px;
     }
+}
+
+@media screen and (max-width: 374px) {
+    .Skill {
+        height: auto;
+        width: 100%;
+    }
+    .About {
+        height: auto;
+        width: 100%;
+    }
+    .Contact {
+        height: auto;
+        width: 100%;
+    }
+    /* 
+    .Skill_block_left {
+        height: auto;
+        width: 100%;
+    }
+    .Skill_block_left_cat2 {
+        height: auto;
+        width: 95%;
+    }
+    .Skill_block-2_right_cat3 {
+        height: auto;
+        width: 95%;
+    }
+    .Skill_block_right {
+        width: 100%;
+        height: auto;
+    }
+    .Skill_block-2_left {
+        width: 100%;
+        height: auto;
+    } */
 }
 
 @media screen and (max-width: 900px) {
@@ -739,4 +775,11 @@ footer {
         /* letter-spacing: -0.1px; */
         /* background-color: #B9B9B9; */
     }
+}
+
+
+/* 余白消し */
+
+.wrap {
+    overflow: hidden;
 }
