@@ -25,16 +25,22 @@ $(document).ready(function() {
 $(function() {
     $('a[href^="#"]').click(function() {
 
-        $('.hamburger').toggleClass('active');
-        //$('.globalMenuSp').removeClass('active');
+        var ww = window.innerWidth;
+        if (ww <= 900) {
+            $('.hamburger').toggleClass('active');
+            //$('.globalMenuSp').removeClass('active');
 
-        if ($('.hamburger').hasClass('active')) {
-            $('.globalMenuSp').addClass('active');
-            $('.globalMenuSp_list').css('visibility', 'visible');
-        } else {
-            $('.globalMenuSp').removeClass('active');
-            $('.globalMenuSp_list').css('visibility', 'hidden');
+            if ($('.hamburger').hasClass('active')) {
+                $('.globalMenuSp').addClass('active');
+                $('.globalMenuSp_list').css('visibility', 'visible');
+            } else {
+                $('.globalMenuSp').removeClass('active');
+                $('.globalMenuSp_list').css('visibility', 'hidden');
+            }
+
         }
+
+
 
         var speed = 500;
         var href = $(this).attr("href");

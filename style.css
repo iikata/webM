@@ -136,6 +136,12 @@ body {
     visibility: hidden;
 }
 
+@media screen and (min-wudth: 901px) {
+    .globalMenuSp_list {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .globalMenuSp_list {
         /* visibility: visible; */
