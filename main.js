@@ -1,6 +1,6 @@
-$(document).ready(function(){
-  //何かしらの処理
-  console.log("okok");
+$(document).ready(function() {
+    //何かしらの処理
+    console.log("okok");
 });
 
 // $(function(){
@@ -22,26 +22,26 @@ $(document).ready(function(){
 //   });
 // });
 
-$(function(){
-  $('a[href^="#"]').click(function(){
-    var speed = 500;
-    var href= $(this).attr("href");
-    var target = $(href == "#" || href == "" ? 'html' : href);
-    var position = target.offset().top;
-    $("html, body").animate({scrollTop:position}, speed, "swing");
-    return false;
-  });
+$(function() {
+    $('a[href^="#"]').click(function() {
+        var speed = 500;
+        var href = $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top;
+        $("html, body").animate({ scrollTop: position }, speed, "swing");
+        return false;
+    });
 });
 
 
 $(function() {
-  $('.hamburger').click(function() {
-      $(this).toggleClass('active');
+    $('.hamburger').click(function() {
+        $(this).toggleClass('active');
 
-      if ($(this).hasClass('active')) {
-          $('.globalMenuSp').addClass('active');
-      } else {
-          $('.globalMenuSp').removeClass('active');
-      }
-  });
+        if ($(this).hasClass('active')) {
+            $('.globalMenuSp').addClass('active');
+        } else {
+            $('.globalMenuSp').removeClass('active');
+        }
+    });
 });
