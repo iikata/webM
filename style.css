@@ -190,7 +190,6 @@ body {
     }
     .hamburger.active span:nth-child(1),
     .hamburger.active span:nth-child(3) {
-        background: #fff;
         -webkit-transition-delay: 0.3s;
         -o-transition-delay: 0.3s;
         transition-delay: 0.3s;
@@ -199,13 +198,13 @@ body {
         -webkit-transform: translateY(4px);
         -ms-transform: translateY(4px);
         -o-transform: translateY(4px);
-        transform: translateY(4px);
+        transform: translateY(34px);
     }
     .hamburger.active span:nth-child(3) {
         -webkit-transform: translateY(-16px) rotate(90deg);
         -ms-transform: translateY(-16px) rotate(90deg);
         -o-transform: translateY(-16px) rotate(90deg);
-        transform: translateY(-16px) rotate(90deg);
+        transform: translateY(20px) rotate(90deg);
     }
     nav.globalMenuSp {
         position: fixed;
